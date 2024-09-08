@@ -1,0 +1,6 @@
+X 2
+2^X - number of soft bodies spawned 4
+Soft Bodies rendered? 0
+Render Time Avg 0.370544ms
+Physics Time Avg 0.0884221ms
+GPU memory usage Avg (MB)2266.63MB

@@ -1,0 +1,6 @@
+#pragma once
+
+#define DEBUG_PRINT_TO_CONSOLE true
+#define DEBUG_SHOW_TRIGGER_BOXES false
+
+#define DEBUG_ALLOW_RENDEROBJ_NULLPTR_MESH false

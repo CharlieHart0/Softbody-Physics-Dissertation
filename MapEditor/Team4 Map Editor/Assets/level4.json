@@ -1,0 +1,361 @@
+{
+         "name" : "MAP OBJECT",
+         "transform" : {
+               "l_position" : {
+                     "x" : 0,
+                     "y" : 0,
+                     "z" : 0
+               },
+               "w_position" : {
+                     "x" : 0,
+                     "y" : 0,
+                     "z" : 0
+               },
+               "l_rotation" : {
+                     "x" : 0,
+                     "y" : 0,
+                     "z" : 0
+               },
+               "l_scale" : {
+                     "x" : 1,
+                     "y" : 1,
+                     "z" : 1
+               },
+               "w_scale" : {
+                     "x" : 1,
+                     "y" : 1,
+                     "z" : 1
+               }
+         },
+         "children" : [
+               {
+                     "name" : "Cube",
+                     "transform" : {
+                           "l_position" : {
+                                 "x" : 0,
+                                 "y" : -0.25,
+                                 "z" : 12.5
+                           },
+                           "w_position" : {
+                                 "x" : 0,
+                                 "y" : -0.25,
+                                 "z" : 12.5
+                           },
+                           "l_rotation" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "l_scale" : {
+                                 "x" : 90,
+                                 "y" : 0.5,
+                                 "z" : 25
+                           },
+                           "w_scale" : {
+                                 "x" : 90,
+                                 "y" : 0.5,
+                                 "z" : 25
+                           }
+                     },
+                     "mesh" : "Cube",
+                     "collider" : {
+                           "type" : "box",
+                           "centre" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "fullDimensions" : {
+                                 "x" : 90,
+                                 "y" : 0.5,
+                                 "z" : 25
+                           }
+                     },
+                     "physicsObject" : {
+                           "inverseMass" : 0,
+                           "constraints" : 126
+                     }
+               },
+               {
+                     "name" : "checkpoint",
+                     "transform" : {
+                           "l_position" : {
+                                 "x" : 0,
+                                 "y" : 6,
+                                 "z" : 8.69999980926514
+                           },
+                           "w_position" : {
+                                 "x" : 0,
+                                 "y" : 6,
+                                 "z" : 8.69999980926514
+                           },
+                           "l_rotation" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "l_scale" : {
+                                 "x" : 89,
+                                 "y" : 12.0614109039307,
+                                 "z" : 2.4203999042511
+                           },
+                           "w_scale" : {
+                                 "x" : 89,
+                                 "y" : 12.0614109039307,
+                                 "z" : 2.4203999042511
+                           }
+                     },
+                     "tags" : [
+                           "checkpoint"
+                     ],
+                     "mesh" : "Cube",
+                     "collider" : {
+                           "type" : "box",
+                           "centre" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "fullDimensions" : {
+                                 "x" : 89,
+                                 "y" : 12.0614109039307,
+                                 "z" : 2.4203999042511
+                           }
+                     }
+               },
+               {
+                     "name" : "Cube (1)",
+                     "transform" : {
+                           "l_position" : {
+                                 "x" : 0,
+                                 "y" : -0.25,
+                                 "z" : 137.5
+                           },
+                           "w_position" : {
+                                 "x" : 0,
+                                 "y" : -0.25,
+                                 "z" : 137.5
+                           },
+                           "l_rotation" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "l_scale" : {
+                                 "x" : 25,
+                                 "y" : 0.5,
+                                 "z" : 225
+                           },
+                           "w_scale" : {
+                                 "x" : 25,
+                                 "y" : 0.5,
+                                 "z" : 225
+                           }
+                     },
+                     "mesh" : "Cube",
+                     "collider" : {
+                           "type" : "box",
+                           "centre" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "fullDimensions" : {
+                                 "x" : 25,
+                                 "y" : 0.5,
+                                 "z" : 225
+                           }
+                     },
+                     "physicsObject" : {
+                           "inverseMass" : 0,
+                           "constraints" : 126
+                     }
+               },
+               {
+                     "name" : "Cube (2)",
+                     "transform" : {
+                           "l_position" : {
+                                 "x" : 0,
+                                 "y" : -0.25,
+                                 "z" : 262.5
+                           },
+                           "w_position" : {
+                                 "x" : 0,
+                                 "y" : -0.25,
+                                 "z" : 262.5
+                           },
+                           "l_rotation" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "l_scale" : {
+                                 "x" : 90,
+                                 "y" : 0.5,
+                                 "z" : 25
+                           },
+                           "w_scale" : {
+                                 "x" : 90,
+                                 "y" : 0.5,
+                                 "z" : 25
+                           }
+                     },
+                     "mesh" : "Cube",
+                     "collider" : {
+                           "type" : "box",
+                           "centre" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "fullDimensions" : {
+                                 "x" : 90,
+                                 "y" : 0.5,
+                                 "z" : 25
+                           }
+                     },
+                     "physicsObject" : {
+                           "inverseMass" : 0,
+                           "constraints" : 126
+                     }
+               },
+               {
+                     "name" : "rhino",
+                     "transform" : {
+                           "l_position" : {
+                                 "x" : 0.400000005960464,
+                                 "y" : 0,
+                                 "z" : 218.100006103516
+                           },
+                           "w_position" : {
+                                 "x" : 0.400000005960464,
+                                 "y" : 0,
+                                 "z" : 218.100006103516
+                           },
+                           "l_rotation" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "l_scale" : {
+                                 "x" : 1,
+                                 "y" : 1,
+                                 "z" : 1
+                           },
+                           "w_scale" : {
+                                 "x" : 1,
+                                 "y" : 1,
+                                 "z" : 1
+                           }
+                     },
+                     "tags" : [
+                           "rhino"
+                     ],
+                     "mesh" : "rhino",
+                     "rhinoBox" : {
+                           "centre world" : {
+                                 "x" : 0.400000005960464,
+                                 "y" : 3.00139427185059,
+                                 "z" : 218.100006103516
+                           },
+                           "fullDim" : {
+                                 "x" : 21,
+                                 "y" : 7.30000019073486,
+                                 "z" : 63.7000007629395
+                           }
+                     }
+               },
+               {
+                     "name" : "rhino (1)",
+                     "transform" : {
+                           "l_position" : {
+                                 "x" : 0.399999976158142,
+                                 "y" : 0,
+                                 "z" : 139.899993896484
+                           },
+                           "w_position" : {
+                                 "x" : 0.399999976158142,
+                                 "y" : 0,
+                                 "z" : 139.899993896484
+                           },
+                           "l_rotation" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "l_scale" : {
+                                 "x" : 1,
+                                 "y" : 1,
+                                 "z" : 1
+                           },
+                           "w_scale" : {
+                                 "x" : 1,
+                                 "y" : 1,
+                                 "z" : 1
+                           }
+                     },
+                     "tags" : [
+                           "rhino"
+                     ],
+                     "mesh" : "rhino",
+                     "rhinoBox" : {
+                           "centre world" : {
+                                 "x" : 0.399999976158142,
+                                 "y" : 3.00139427185059,
+                                 "z" : 139.899993896484
+                           },
+                           "fullDim" : {
+                                 "x" : 21,
+                                 "y" : 7.30000019073486,
+                                 "z" : 63.7000007629395
+                           }
+                     }
+               },
+               {
+                     "name" : "rhino (2)",
+                     "transform" : {
+                           "l_position" : {
+                                 "x" : 0.399999976158142,
+                                 "y" : 0,
+                                 "z" : 64.5999984741211
+                           },
+                           "w_position" : {
+                                 "x" : 0.399999976158142,
+                                 "y" : 0,
+                                 "z" : 64.5999984741211
+                           },
+                           "l_rotation" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "l_scale" : {
+                                 "x" : 1,
+                                 "y" : 1,
+                                 "z" : 1
+                           },
+                           "w_scale" : {
+                                 "x" : 1,
+                                 "y" : 1,
+                                 "z" : 1
+                           }
+                     },
+                     "tags" : [
+                           "rhino"
+                     ],
+                     "mesh" : "rhino",
+                     "rhinoBox" : {
+                           "centre world" : {
+                                 "x" : 0.399999976158142,
+                                 "y" : 3.00139427185059,
+                                 "z" : 64.5999984741211
+                           },
+                           "fullDim" : {
+                                 "x" : 21,
+                                 "y" : 7.30000019073486,
+                                 "z" : 63.7000007629395
+                           }
+                     }
+               }
+         ]
+   }

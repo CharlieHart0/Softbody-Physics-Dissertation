@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8E68EE2-2423-3077-984D-89C70EB99783}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rocke\source\repos\8503-Team-4\rapidjson\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rocke\source\repos\8503-Team-4\rapidjson\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/rocke/source/repos/8503-Team-4/rapidjson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/rocke/source/repos/8503-Team-4 -BC:/Users/rocke/source/repos/8503-Team-4 --check-stamp-file C:/Users/rocke/source/repos/8503-Team-4/rapidjson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\rocke\source\repos\8503-Team-4\rapidjson\RapidJSONConfig.cmake.in;C:\Users\rocke\source\repos\8503-Team-4\rapidjson\RapidJSONConfigVersion.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\rocke\source\repos\8503-Team-4\rapidjson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/rocke/source/repos/8503-Team-4/rapidjson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/rocke/source/repos/8503-Team-4 -BC:/Users/rocke/source/repos/8503-Team-4 --check-stamp-file C:/Users/rocke/source/repos/8503-Team-4/rapidjson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\rocke\source\repos\8503-Team-4\rapidjson\RapidJSONConfig.cmake.in;C:\Users\rocke\source\repos\8503-Team-4\rapidjson\RapidJSONConfigVersion.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\rocke\source\repos\8503-Team-4\rapidjson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\ZERO_CHECK.vcxproj">
+      <Project>{41586849-1BDE-34D9-9F26-5AF79BDA47D8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\archivertest.vcxproj">
+      <Project>{963D5F4F-BA08-3F44-80B7-B38E2A5283A0}</Project>
+      <Name>archivertest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\capitalize.vcxproj">
+      <Project>{FAB0ED83-AF47-3A07-AE4E-987EDEA02B25}</Project>
+      <Name>capitalize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\condense.vcxproj">
+      <Project>{2E06908D-1105-3BCB-B19E-02BA2E88A1D7}</Project>
+      <Name>condense</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\examples.vcxproj">
+      <Project>{60C04DA6-DF01-3DB3-9167-F9FE8D26116C}</Project>
+      <Name>examples</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\filterkey.vcxproj">
+      <Project>{1100B781-162B-348B-AB6E-BDAA7F0F9F0F}</Project>
+      <Name>filterkey</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\filterkeydom.vcxproj">
+      <Project>{75309092-7D6B-3534-8AF6-E3CAA8D96601}</Project>
+      <Name>filterkeydom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\jsonx.vcxproj">
+      <Project>{507DDA78-826E-311F-87AF-211EDA8A9676}</Project>
+      <Name>jsonx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\lookaheadparser.vcxproj">
+      <Project>{69AD7ACC-3B1E-3311-B998-0FBA76948671}</Project>
+      <Name>lookaheadparser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\messagereader.vcxproj">
+      <Project>{CA3C5437-AC6A-3DCF-8B9D-6BF7FD3A2480}</Project>
+      <Name>messagereader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\parsebyparts.vcxproj">
+      <Project>{41500243-F103-3851-B1F0-A30B1BCC6565}</Project>
+      <Name>parsebyparts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\pretty.vcxproj">
+      <Project>{0374487C-6BCF-36BD-A50D-1CF1F32C9337}</Project>
+      <Name>pretty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\prettyauto.vcxproj">
+      <Project>{1EF004E4-4245-3B31-9FAD-AFD7DA966490}</Project>
+      <Name>prettyauto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\schemavalidator.vcxproj">
+      <Project>{6AA35EF3-FE7F-3F6C-BFF6-84DDCCFC36FA}</Project>
+      <Name>schemavalidator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\serialize.vcxproj">
+      <Project>{2A2DEA78-FCDA-36E7-996E-044DDC8F6662}</Project>
+      <Name>serialize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\simpledom.vcxproj">
+      <Project>{25E35546-A0A9-35A7-87F3-CF9C7D9DCD0D}</Project>
+      <Name>simpledom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\simplepullreader.vcxproj">
+      <Project>{702BE564-06F8-3CED-8FF9-73C20CFCC6CF}</Project>
+      <Name>simplepullreader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\simplereader.vcxproj">
+      <Project>{F9E6B1FA-45CA-39F7-BD54-18929D64F25B}</Project>
+      <Name>simplereader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\simplewriter.vcxproj">
+      <Project>{99CDCE43-24D6-3FCE-BC9B-EE24478ED5C8}</Project>
+      <Name>simplewriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\sortkeys.vcxproj">
+      <Project>{3CB49ABB-1FB5-3AE2-83FC-E19430E44659}</Project>
+      <Name>sortkeys</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rocke\source\repos\8503-Team-4\rapidjson\example\tutorial.vcxproj">
+      <Project>{5DA54F0E-15A5-3ABE-9849-BC895ABE9148}</Project>
+      <Name>tutorial</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

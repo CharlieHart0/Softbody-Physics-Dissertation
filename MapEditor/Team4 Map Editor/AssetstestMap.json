@@ -1,0 +1,60 @@
+{
+         "name" : "Map Object",
+         "transform" : {
+               "l_position" : {
+                     "x" : 0,
+                     "y" : 0,
+                     "z" : 0
+               },
+               "l_rotation" : {
+                     "x" : 0,
+                     "y" : 0,
+                     "z" : 0
+               },
+               "l_scale" : {
+                     "x" : 1,
+                     "y" : 1,
+                     "z" : 1
+               }
+         },
+         "children" : [
+               {
+                     "name" : "Cube",
+                     "transform" : {
+                           "l_position" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "l_rotation" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "l_scale" : {
+                                 "x" : 1,
+                                 "y" : 1,
+                                 "z" : 1
+                           }
+                     },
+                     "mesh" : "ERROR",
+                     "collider" : {
+                           "type" : "box",
+                           "centre" : {
+                                 "x" : 0,
+                                 "y" : 0,
+                                 "z" : 0
+                           },
+                           "fullDimensions" : {
+                                 "x" : 1,
+                                 "y" : 1,
+                                 "z" : 1
+                           }
+                     },
+                     "physicsObject" : {
+                           "inverseMass" : 1,
+                           "constraints" : 0
+                     }
+               }
+         ]
+   }
